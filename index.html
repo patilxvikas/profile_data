@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas Patil Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>I'm Vikas Patil</h1>
+        <p>Software Engineer at Paytm, specializing in Spring Boot, Java, and MySQL.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Vikas Patil from Patiala, Punjab. I'm passionate about developing efficient and scalable software solutions.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Spring Boot</li>
+            <li>Java</li>
+            <li>MySQL</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Pokedex</h3>
+            <p>The <strong>Pokedex React App</strong> is a sleek and interactive application built with <strong>React</strong>, offering users comprehensive information about various Pokémon. It features a <strong>real-time search with autocomplete</strong> for quick access to Pokémon by name or number, along with <strong>detailed pages</strong> displaying each Pokémon's name, image, type, abilities, and stats. Designed to be <strong>responsive</strong>, the app ensures a seamless experience across desktop and mobile devices, complemented by a <strong>clean and intuitive user interface</strong> that supports both dark and light modes. <strong>Performance</strong> is optimized with lazy loading and caching techniques, making data retrieval efficient and fast. Powered by <strong>React</strong>, <strong>React Router</strong> for navigation, <strong>Axios</strong> for API calls, and <strong>Styled Components</strong> for modular CSS, this app is ideal for Pokémon enthusiasts seeking a user-friendly tool to explore and learn about their favorite creatures.</p>        </div>
+        <div class="project">
+            <h3>8 Puzzle Solver</h3>
+            <p>The <strong>8-bit Puzzle Project</strong> is an engaging web application crafted using <strong>HTML, CSS, and JavaScript</strong>, featuring an implementation of the <strong>A* search algorithm</strong> for pathfinding. This nostalgic-inspired game challenges users to solve puzzles by maneuvering an <strong>8-bit character</strong> through a grid-based maze. The game interface, styled with a retro aesthetic using CSS, immerses players in a pixelated world reminiscent of classic video games. Leveraging JavaScript, the <strong>A* search algorithm</strong> intelligently navigates through obstacles, calculating the shortest path from the starting point to the goal in real-time, providing an interactive and dynamic gameplay experience. Whether you're a puzzle enthusiast or a fan of retro gaming, the <strong>8-bit Puzzle Project</strong> promises hours of strategic fun while showcasing the power of <strong>A* search</strong> in solving pathfinding challenges within a nostalgic digital environment.</p>        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vikas Patil. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
